@@ -12,11 +12,14 @@ explore the intersection of financial markets, data analysis, and quantitative s
 
 *Bitemporal Correctness and State Recovery in Memory-Based Temporal Graph Networks*
 
-My thesis investigates how delayed interactions affect the state of temporal graph
-models. It distinguishes when an interaction occurs from when it becomes
-available, and studies how to recover model state under those two time dimensions.
-The work emphasizes correctness checks against independent chronological replay
-and reproducible evaluation.
+My thesis studies delayed and out-of-order interactions in memory-based
+Temporal Graph Networks (TGNs), distinguishing event time from when an update
+becomes available to the model. It examines how late events affect state
+correctness relative to chronological replay and explores workload-aware
+recovery policies that select between local memory patches, selective dependency
+replay, and full dependency-cone recomputation. The evaluation focuses on
+state fidelity, recovery latency, and computational cost under reproducible
+delay patterns and graph workloads.
 
 ## Selected work
 
